@@ -1,7 +1,7 @@
 const http = require('http');
 const httpProxy = require('http-proxy');
 
-const TARGET_URL = 'https://bayern.aabtshonin.sbs:8096';
+const TARGET_URL = 'domain';
 
 const keepAliveAgent = new http.Agent({
   keepAlive: true,
